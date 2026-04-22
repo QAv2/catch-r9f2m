@@ -668,7 +668,7 @@ const IMAGE_FIT = {
   'longnose-gar': '#121a12',
   'american-shad': '#f2efe8',
   'red-drum': '#eae6e0',
-  'flounder': '#f0ede8',
+  'flounder': '#d4cfc8',
 };
 
 const SPECIES_IMAGES = {
@@ -690,6 +690,6 @@ const SPECIES_IMAGES = {
   'american-shad': 'img/american-shad.jpg',
   'red-drum': 'img/red-drum.png',
   'spotted-seatrout': 'img/spotted-seatrout.jpg',
-  'flounder': 'img/flounder.gif',
+  'flounder': 'img/flounder.jpg',
   'sheepshead': 'img/sheepshead.jpg',
 };
