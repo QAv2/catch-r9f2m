@@ -257,6 +257,10 @@ body {
   display: block;
 }
 
+.card-image.contain {
+  object-fit: contain;
+}
+
 .card-image-fade {
   position: absolute;
   bottom: 0;
