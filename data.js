@@ -660,3 +660,26 @@ const CATEGORY_META = {
 };
 
 const DIFFICULTY_LABELS = { 1: 'Beginner', 2: 'Intermediate', 3: 'Advanced' };
+
+const SPECIES_IMAGES = {
+  'largemouth-bass': 'img/largemouth-bass.jpg',
+  'spotted-bass': 'img/spotted-bass.jpg',
+  'channel-catfish': 'img/channel-catfish.jpg',
+  'blue-catfish': 'img/blue-catfish.jpg',
+  'flathead-catfish': 'img/flathead-catfish.jpg',
+  'bullhead-catfish': 'img/bullhead-catfish.jpg',
+  'bluegill': 'img/bluegill.jpg',
+  'redear-sunfish': 'img/redear-sunfish.jpg',
+  'redbreast-sunfish': 'img/redbreast-sunfish.jpg',
+  'warmouth': 'img/warmouth.jpg',
+  'crappie': 'img/crappie.jpg',
+  'chain-pickerel': 'img/chain-pickerel.jpg',
+  'bowfin': 'img/bowfin.png',
+  'longnose-gar': 'img/longnose-gar.jpg',
+  'yellow-perch': 'img/yellow-perch.jpg',
+  'american-shad': 'img/american-shad.jpg',
+  'red-drum': 'img/red-drum.png',
+  'spotted-seatrout': 'img/spotted-seatrout.jpg',
+  'flounder': 'img/flounder.gif',
+  'sheepshead': 'img/sheepshead.jpg',
+};

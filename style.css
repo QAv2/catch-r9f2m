@@ -239,6 +239,34 @@ body {
   display: none;
 }
 
+/* ─── Card Image ─── */
+
+.card-image-wrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: #0e2035;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  display: block;
+}
+
+.card-image-fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  background: linear-gradient(transparent, var(--bg-card));
+  pointer-events: none;
+}
+
 .species-card:hover,
 .species-card:focus-within {
   border-color: #2a4a6f;

@@ -79,6 +79,7 @@
     const fav = favorites.has(sp.id);
     return `
     <article class="species-card" data-id="${sp.id}" data-category="${sp.category}">
+      ${SPECIES_IMAGES[sp.id] ? `<div class="card-image-wrap"><img class="card-image" src="${SPECIES_IMAGES[sp.id]}" alt="${sp.name}" loading="lazy" onerror="this.parentElement.style.display='none'"><div class="card-image-fade"></div></div>` : ''}
       <div class="card-main" role="button" tabindex="0" aria-label="Expand ${sp.name}">
         <div class="card-stripe" style="background:${catMeta.color}"></div>
         <div class="card-body">
@@ -202,7 +203,7 @@
       toggleFav(favEl.dataset.fav);
       return;
     }
-    const cardMain = e.target.closest('.card-main');
+    const cardMain = e.target.closest('.card-main') || e.target.closest('.card-image-wrap');
     if (cardMain) {
       const card = cardMain.closest('.species-card');
       card.classList.toggle('expanded');
