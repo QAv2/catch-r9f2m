@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1929">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <title>Tight Lines — Portal Fishing Guide</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="logo">Tight Lines</h1>
+      <p class="subtitle">Portal, GA &middot; Fishing Field Guide</p>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="search" class="search-input" placeholder="Search species, baits, tips..." autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+  </header>
+
+  <nav class="filters">
+    <div class="chip-row" id="categoryFilters">
+      <button class="chip active" data-category="all">All</button>
+      <button class="chip" data-category="bass">Bass</button>
+      <button class="chip" data-category="catfish">Catfish</button>
+      <button class="chip" data-category="panfish">Panfish</button>
+      <button class="chip" data-category="predator">Predator</button>
+      <button class="chip" data-category="saltwater">Saltwater</button>
+    </div>
+    <div class="chip-row chip-row-secondary">
+      <button class="chip chip-icon" id="bitingBtn">🔥 Biting Now</button>
+      <button class="chip chip-icon" id="favBtn">★ Favorites</button>
+    </div>
+  </nav>
+
+  <section class="biting-section" id="bitingSection">
+    <h2 class="section-title">🔥 What's Biting &mdash; <span id="currentMonth"></span></h2>
+    <div class="biting-scroll" id="bitingScroll"></div>
+  </section>
+
+  <main class="species-grid" id="speciesGrid"></main>
+
+  <div class="empty-state" id="emptyState" style="display:none;">
+    <p class="empty-icon">🐟</p>
+    <p class="empty-text">No species match your filters</p>
+    <button class="empty-reset" id="resetBtn">Clear Filters</button>
+  </div>
+
+  <footer class="footer">
+    <p>Built for Stephen 🎣</p>
+    <p class="footer-note">Tight Lines v1.0 &middot; Portal, GA</p>
+    <p class="footer-note">Always check <strong>GADNR regulations</strong> for current size and bag limits before you fish.</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
