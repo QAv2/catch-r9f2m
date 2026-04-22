@@ -661,6 +661,16 @@ const CATEGORY_META = {
 
 const DIFFICULTY_LABELS = { 1: 'Beginner', 2: 'Intermediate', 3: 'Advanced' };
 
+const IMAGE_FIT = {
+  'channel-catfish': '#eae6e0',
+  'blue-catfish': '#080808',
+  'bowfin': '#eae6e0',
+  'longnose-gar': '#121a12',
+  'american-shad': '#f2efe8',
+  'red-drum': '#eae6e0',
+  'flounder': '#f0ede8',
+};
+
 const SPECIES_IMAGES = {
   'largemouth-bass': 'img/largemouth-bass.jpg',
   'spotted-bass': 'img/spotted-bass.jpg',
