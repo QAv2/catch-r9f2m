@@ -7,7 +7,7 @@ const ASSETS = [
   './img/warmouth.jpg', './img/crappie.jpg', './img/chain-pickerel.jpg',
   './img/bowfin.png', './img/longnose-gar.jpg', './img/yellow-perch.jpg',
   './img/american-shad.jpg', './img/red-drum.png', './img/spotted-seatrout.jpg',
-  './img/flounder.gif', './img/sheepshead.jpg',
+  './img/flounder.jpg', './img/sheepshead.jpg',
 ];
 
 self.addEventListener('install', e => {
