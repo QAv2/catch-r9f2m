@@ -1,4 +1,4 @@
-const CACHE = 'tight-lines-v2';
+const CACHE = 'tight-lines-v3';
 const ASSETS = [
   './', './index.html', './style.css', './data.js', './app.js', './icon.svg', './manifest.json',
   './img/largemouth-bass.jpg', './img/spotted-bass.jpg', './img/channel-catfish.jpg',
